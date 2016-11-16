@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+               >
+
+    <EditText
+        android:id="@+id/etXum"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="X"
+        android:layout_toStartOf="@+id/etYum"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/etYum"/>
+
+    <EditText
+        android:id="@+id/etYum"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Y"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etYum"
+        android:layout_alignLeft="@+id/etXum"
+        android:layout_alignRight="@+id/etYum"
+        android:layout_alignStart="@+id/etXum"
+        android:layout_below="@+id/etXum"
+        android:gravity="center"
+        android:text="Ponto 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/etXdois"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="X"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_toStartOf="@+id/etYum"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etYdois"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Y"
+        android:layout_alignLeft="@+id/etYum"
+        android:layout_alignStart="@+id/etYum"
+        android:layout_alignTop="@+id/etXdois"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etYdois"
+        android:layout_alignLeft="@+id/etXdois"
+        android:layout_alignRight="@+id/etYdois"
+        android:layout_alignStart="@+id/etXdois"
+        android:layout_below="@+id/etXdois"
+        android:gravity="center"
+        android:text="Ponto 2"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/etXtres"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="X"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_toStartOf="@+id/etYdois"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etYtres"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Y"
+        android:layout_alignLeft="@+id/etYdois"
+        android:layout_alignStart="@+id/etYdois"
+        android:layout_alignTop="@+id/etXtres"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etYtres"
+        android:layout_alignLeft="@+id/etXtres"
+        android:layout_alignRight="@+id/etYtres"
+        android:layout_alignStart="@+id/etXtres"
+        android:layout_below="@+id/etXtres"
+        android:gravity="center"
+        android:text="Ponto 3"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular propriedades"
+        fbutton:buttonColor="@color/Secondary"
+        fbutton:shadowEnabled="true"
+        android:id="@+id/bCalcTriangulo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>

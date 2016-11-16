@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Code Samples</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_title">Lista de exemplos</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="items">
+        <item>Início</item>
+        <item>Exemplos de funções</item>
+        <item>Geometria</item>
+    </string-array>
+    <string-array name="funcList">
+        <item>If (Se-então)</item>
+        <item>For e loops</item>
+        <item>Condições E e OU</item>
+        <item>Bubble Sort</item>
+    </string-array>
+    <string-array name="geoList">
+        <item>Propriedades do triângulo</item>
+    </string-array>
+    <string name="content_se">A condição \"se-então(-senão)\" é uma estrutura de seleção comum em diversas linguagens
+        de programação. Sua estrutura básica é a seguinte:\nSe (condição) Então\n(bloco de código)\nSenão\n(bloco de código)\nFim Se\nQuando o interpretador encontra
+        o identificador \"Se\", ele espera em seguida uma condição booleana sob forma
+        de expressão relacional (como por exemplo, \"x > 0\"), que pode ser ver verdadeira ou falsa.
+        Se a condição é verdadeira, o bloco de código seguido de \"Então\" é executado. Caso a condição seja falsa,
+        o bloco de código seguido de \"Senão\" é executado.
+    </string>
+        <string name="content_for">Uma estrutura de repetição realiza e repete diferentes computações ou
+            ações dependendo se uma condição é verdadeira ou falsa, condição essa que é um expressão processada e
+            transformada em um valor booleano. Está associado a ela além da condição (também chamada \"expressão de controle\"
+            ou \"condição de parada\") o bloco de código: verifica-se a condição, e caso seja verdadeira, o bloco é executado.
+            Após o final da execução do bloco, a condição é verificada novamente, e caso ela ainda seja verdadeira,
+            o código é executado novamente.
+    </string>
+    <string name="content_and_or">AND\nOperador lógico no qual a resposta da operação é verdade
+        se ambas as variáveis de entrada forem verdade.\nOR\nOperador lógico no qual a resposta da operação é verdade
+        se pelo menos uma das variáveis de entrada for verdade.
+    </string>
+        <string name="content_bubble">O bubble sort, ou ordenação por flutuação (literalmente \"por bolha\"),
+            é um algoritmo de ordenação dos mais simples. A ideia é percorrer o vector diversas vezes,
+            a cada passagem fazendo flutuar para o topo o maior elemento da sequência. Essa movimentação lembra
+            a forma como as bolhas em um tanque de água procuram seu próprio nível, e disso vem o nome do algoritmo.\nNo
+            melhor caso, o algoritmo executa n operações relevantes, onde n representa o número de elementos do vector.
+            No pior caso, são feitas n^2 operações. A complexidade desse algoritmo é de Ordem quadrática.
+            Por isso, ele não é recomendado para programas que precisem de velocidade e operem com quantidade elevada
+            de dados.
+    </string>
+    <string name="content_triang">A partir das funções apresendatas, é possível contruir um programa que calcule as
+        propriedades de um triangulo,como área, perímetro, lados, etc., a partir de coordenadas cartesianas</string>
+</resources>
